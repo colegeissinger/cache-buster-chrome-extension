@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Cache Buster",
+  "version": "1.0",
+  "description": "Adds a unique value to your website URL to bust any server side cache.",
+  "permissions": ["activeTab", "scripting"],
+  "icons": {
+    "64": "images/icon-64x64.png"
+  },
+  "action": {
+    "default_icon": {
+      "64": "images/icon-64x64.png"
+    }
+  },
+  "background": {
+    "service_worker": "scripts/background.js"
+  }
+}
